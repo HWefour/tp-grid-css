@@ -1,0 +1,18 @@
+.articles {
+    border: 2px black solid ;
+    background-color: aqua;
+
+}
+
+.tout {
+ grid-template-rows: 1fr;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+
+}
+
+#art1 {
+    grid-column: 2;
+    grid-row: 1;
+    
+}
